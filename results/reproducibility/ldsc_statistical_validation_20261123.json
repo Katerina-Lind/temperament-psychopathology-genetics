@@ -1,0 +1,32 @@
+{
+  "validation_date": "2026-11-23",
+  "status": "PASS",
+  "principal_model": {
+    "traits": ["EMO", "ACT", "SHY", "CADHD", "AINT", "ASUD", "ARISK"],
+    "max_absolute_differences": {
+      "S": 0,
+      "V": 0,
+      "S_Stand": 0,
+      "V_Stand": 0
+    }
+  },
+  "age_specific": {
+    "models": 18,
+    "max_absolute_difference": 0,
+    "contrast_rows": 18,
+    "contrast_column_differences": {
+      "rg_2Y": 0,
+      "rg_3Y": 0,
+      "rg_2Y_3Y": 0,
+      "difference_2Y_minus_3Y": 0,
+      "SE_difference": 0,
+      "Z": 0,
+      "P": 0,
+      "CI_lower": 0,
+      "CI_upper": 0,
+      "min_eigenvalue_S": 0,
+      "min_eigenvalue_V": 0,
+      "FDR_BH": 0
+    }
+  }
+}
