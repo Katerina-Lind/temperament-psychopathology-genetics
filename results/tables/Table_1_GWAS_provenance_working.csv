@@ -1,0 +1,18 @@
+code,phenotype,assessment,GWAS_source,reported_N,N_interpretation,included_in_primary_model
+EMO,Emotionality,"Infant/toddler, cross-age",Hollowell EAS European ancestry,50426,Reported meta-analysis sample size,Yes
+ACT,Activity,"Infant/toddler, cross-age",Hollowell EAS European ancestry,50453,Reported meta-analysis sample size,Yes
+SHY,Shyness,"Infant/toddler, cross-age",Hollowell EAS European ancestry,45656,Reported meta-analysis sample size,Yes
+SOC,Sociability,"Infant/toddler, cross-age",Hollowell EAS European ancestry,43963,Reported meta-analysis sample size,No; low h2/unstable correlations
+EMO_2Y,Emotionality,Second year,Hollowell EAS European ancestry,69194,Reported meta-analysis sample size,Age-specific sensitivity
+EMO_3Y,Emotionality,Third year,Hollowell EAS European ancestry,55262,Reported meta-analysis sample size,Age-specific sensitivity
+ACT_2Y,Activity,Second year,Hollowell EAS European ancestry,72663,Reported meta-analysis sample size,Age-specific sensitivity
+ACT_3Y,Activity,Third year,Hollowell EAS European ancestry,55280,Reported meta-analysis sample size,Age-specific sensitivity
+SHY_2Y,Shyness,Second year,Hollowell EAS European ancestry,63663,Reported meta-analysis sample size,Age-specific sensitivity
+SHY_3Y,Shyness,Third year,Hollowell EAS European ancestry,55252,Reported meta-analysis sample size,Age-specific sensitivity
+CADHD,ADHD symptoms,Childhood,GCST90568440,73483,Metadata size; confirm unique vs effective,Yes
+CINT,Internalising symptoms,Childhood/adolescence,GCST90054778,64641,Unique N; SNP-specific effective N up to 132261,Additional analyses
+AINT,PGC F4 internalising,Adult disorders,PGC CDG 2025,,Factor-based GWAS; verify effective N,Yes
+ASUD,PGC F5 substance use,Adult disorders,PGC CDG 2025,,Factor-based GWAS; verify effective N,Yes
+ARISK,Risk-taking,Adult,Clifton 2018,436236,Reported study N; harmonised 13 excluded records,Yes
+WOR,Worry,Adult,CNCR summary statistics,,Verify sample-size/source metadata,Additional analyses
+AFF,Depressed affect,Adult,CNCR summary statistics,,Verify sample-size/source metadata,Additional analyses

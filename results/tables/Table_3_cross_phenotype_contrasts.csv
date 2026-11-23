@@ -1,0 +1,5 @@
+temperament,contrast,delta_rg,SE_delta,CI_low,CI_high,P,FDR_q
+Activity,ADHD − substance use,0.487472,0.100366,0.29075464000000006,0.68418936,1.1922e-06,2.3845e-06
+Activity,ADHD − risk-taking,0.694523,0.093887,0.51050448,0.87854152,1.3886e-13,5.5543e-13
+Shyness,ADHD − risk-taking,-0.187277,0.072083,-0.32855968,-0.045994320000000005,0.0093743,0.012499
+Emotionality,Internalising − substance use,0.053059,0.07046,-0.0850426,0.19116059999999999,0.45143,0.45143

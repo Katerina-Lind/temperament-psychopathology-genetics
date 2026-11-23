@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this code, cite the accompanying manuscript and primary GWAS sources."
+title: "Early-life temperament and psychiatric genetic architecture: analysis code (working repository)"
+type: software
+version: 0.1.0
+# TODO: add authors, repository-code URL, and manuscript DOI before public release.

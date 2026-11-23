@@ -1,0 +1,17 @@
+trait	file_name	provenance	data_access_note
+EMO	EASgwas_sumstats_Emotionality_Hollowell2025.txt	Hollowell EAS European-ancestry cross-age GWAS	Figshare file 57618763
+ACT	EASgwas_sumstats_Activity_Hollowell2025.txt	Hollowell EAS European-ancestry cross-age GWAS	Figshare file 57619696
+SHY	EASgwas_sumstats_Shyness_Hollowell2025.txt	Hollowell EAS European-ancestry cross-age GWAS	Figshare file 57619474
+EMO_2Y	EASgwas_sumstats_Emotionality_2Y_Hollowell2025.txt	Hollowell EAS European ancestry second year	Figshare file 63017410
+EMO_3Y	EASgwas_sumstats_Emotionality_3Y_Hollowell2025.txt	Hollowell EAS European ancestry third year	Figshare file 63015751
+ACT_2Y	EASgwas_sumstats_Activity_2Y_Hollowell2025.txt	Hollowell EAS European ancestry second year	Figshare file 63017407
+ACT_3Y	EASgwas_sumstats_Activity_3Y_Hollowell2025.txt	Hollowell EAS European ancestry third year	Figshare file 63015742
+SHY_2Y	EASgwas_sumstats_Shyness_2Y_Hollowell2025.txt	Hollowell EAS European ancestry second year	Figshare file 63015736
+SHY_3Y	EASgwas_sumstats_Shyness_3Y_Hollowell2025.txt	Hollowell EAS European ancestry third year	Figshare file 63017413
+CADHD	GCST90568440.tsv.gz	Childhood ADHD symptom/diagnosis GWAS	GWAS Catalog GCST90568440
+CINT	GCST90054778_buildGRCh37.tsv.gz	Childhood/adolescent internalising GWAS	GWAS Catalog GCST90054778; effective N audit pending
+AINT	F4_Internalizing_2025.tsv.gz	PGC CDG 2025 F4 internalising	Figshare doi:10.6084/m9.figshare.30359017
+ASUD	F5_SubstanceUse_2025.tsv.gz	PGC CDG 2025 F5 substance use	Figshare doi:10.6084/m9.figshare.30359017
+ARISK	Risk_SumStats_Clifton_2018.csv.gz	Clifton 2018 risk taking	Original repository/source to confirm
+WOR	worry.sumstats.gz	Derived neuroticism worry factor	Original GWAS provenance to confirm
+AFF	depressed_affect.sumstats.gz	Derived neuroticism depressed affect factor	Original GWAS provenance to confirm
