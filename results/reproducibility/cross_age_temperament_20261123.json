@@ -1,0 +1,34 @@
+{
+  "timestamp_utc": "2026-11-23T12:40:18.917085+00:00",
+  "source_root": "/Users/katerina_lind/temperament_project",
+  "analysis_root": "/Users/katerina_lind/temperament_psychopathology",
+  "workdir": "/Users/katerina_lind/temperament_cross_age_reproduction_20261123_v2",
+  "scripts_sha256": {
+    "13_prepare_emotionality.py": "27be7f95408c0e49502acd7ecd3ab73935cc305b360a6ca056893450b6d833ba",
+    "14_munge_emotionality.R": "f1bf9f09ec9182524e2406d2998800d1657cc88cb918445531d24264953470f5",
+    "16_prepare_remaining_temperament.py": "4941221e24c9bad2245832957a2ec64971a5bca1450faf07b633a8b1626b943b",
+    "17_munge_remaining_temperament.R": "c94ef1c6a93f63cc46d60fc5972b6f7cfdd30efb1cf511354c23782766155a55"
+  },
+  "results": {
+    "EMO": {
+      "status": "IDENTICAL",
+      "decompressed_sha256": "a8960ccd465efd85884d7730f0160dc8f6b3a99e81f11902c422f06f225a42c2",
+      "expected_sha256": "a8960ccd465efd85884d7730f0160dc8f6b3a99e81f11902c422f06f225a42c2"
+    },
+    "ACT": {
+      "status": "IDENTICAL",
+      "decompressed_sha256": "88511e90222fa87e95e3ae41856b54c7540bb81adaa17409b82331b251a27c79",
+      "expected_sha256": "88511e90222fa87e95e3ae41856b54c7540bb81adaa17409b82331b251a27c79"
+    },
+    "SHY": {
+      "status": "IDENTICAL",
+      "decompressed_sha256": "16ffd868213ddcb578c20b98687f86763f347e55d26d7b417ec661a92180cc13",
+      "expected_sha256": "16ffd868213ddcb578c20b98687f86763f347e55d26d7b417ec661a92180cc13"
+    },
+    "SOC": {
+      "status": "IDENTICAL",
+      "decompressed_sha256": "d9a0fb009580376944165f609e7395e45179b01ac169f0dcc48621a7930137d8",
+      "expected_sha256": "d9a0fb009580376944165f609e7395e45179b01ac169f0dcc48621a7930137d8"
+    }
+  }
+}
