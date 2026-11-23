@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd "$HOME/temperament_psychopathology"
+: "${TEMPERAMENT_ANALYSIS_ROOT:?Set TEMPERAMENT_ANALYSIS_ROOT}"
+cd "$TEMPERAMENT_ANALYSIS_ROOT"
 
 OUT="results/ldsc/developmental_rg"
 REF="data/ldsc_reference/eur_w_ld_chr/"

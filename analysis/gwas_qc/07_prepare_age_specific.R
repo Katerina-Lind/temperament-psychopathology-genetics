@@ -1,7 +1,14 @@
 suppressPackageStartupMessages(library(data.table))
 
-old_root <- path.expand("~/temperament_project")
-new_root <- path.expand("~/temperament_psychopathology")
+old_root <- Sys.getenv("TEMPERAMENT_SOURCE_ROOT")
+new_root <- Sys.getenv("TEMPERAMENT_ANALYSIS_ROOT")
+
+if (!nzchar(old_root) || !nzchar(new_root)) {
+  stop("Set TEMPERAMENT_SOURCE_ROOT and TEMPERAMENT_ANALYSIS_ROOT")
+}
+
+old_root <- normalizePath(old_root, mustWork=TRUE)
+new_root <- normalizePath(new_root, mustWork=TRUE)
 
 input_dir <- file.path(
   old_root, "gwas/temperament/age_specific/raw"

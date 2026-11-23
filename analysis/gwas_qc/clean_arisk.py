@@ -1,13 +1,27 @@
 import gzip
 from pathlib import Path
 
+import os
+
+source_value = os.environ.get("TEMPERAMENT_SOURCE_ROOT")
+analysis_value = os.environ.get("TEMPERAMENT_ANALYSIS_ROOT")
+
+if not source_value or not analysis_value:
+    raise SystemExit(
+        "Set TEMPERAMENT_SOURCE_ROOT and TEMPERAMENT_ANALYSIS_ROOT"
+    )
+
+source_root = Path(source_value).expanduser().resolve()
+analysis_root = Path(analysis_value).expanduser().resolve()
+
 src = (
-    Path.home()
-    / "temperament_project/gwas/processed/munged/adult/ARISK.sumstats.gz"
+    source_root
+    / "gwas/processed/munged/adult/ARISK.sumstats.gz"
 )
 
-dst = Path(
-    "data/ldsc_munged/cleaned/ARISK.sumstats.gz"
+dst = (
+    analysis_root
+    / "data/ldsc_munged/cleaned/ARISK.sumstats.gz"
 )
 
 allowed = {"A", "C", "G", "T"}

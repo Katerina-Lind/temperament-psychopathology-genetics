@@ -1,7 +1,12 @@
 import gzip
 from pathlib import Path
 
-root = Path.home() / "temperament_psychopathology"
+import os
+
+root_value = os.environ.get("TEMPERAMENT_ANALYSIS_ROOT")
+if not root_value:
+    raise SystemExit("Set TEMPERAMENT_ANALYSIS_ROOT")
+root = Path(root_value).expanduser().resolve()
 
 shy = root / "data/ldsc_munged/temperament/SHY.sumstats.gz"
 arisk = root / "data/ldsc_munged/cleaned/ARISK.sumstats.gz"

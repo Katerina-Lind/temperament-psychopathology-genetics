@@ -1,4 +1,8 @@
-root <- path.expand("~/temperament_psychopathology")
+root <- Sys.getenv("TEMPERAMENT_ANALYSIS_ROOT")
+if (!nzchar(root)) {
+  stop("Set TEMPERAMENT_ANALYSIS_ROOT")
+}
+root <- normalizePath(root, mustWork=TRUE)
 setwd(root)
 
 x <- readRDS(
