@@ -1,0 +1,30 @@
+{
+  "validation_date": "2026-11-23",
+  "method": "LDSC munge_sumstats.py",
+  "ldsc_version": "3.0.1",
+  "parameters": {
+    "merge_alleles": "w_hm3.snplist",
+    "snp": "RSID",
+    "N_col": "N",
+    "a1": "A1",
+    "a2": "A2",
+    "p": "P",
+    "frq": "MAF",
+    "signed_sumstats": "Z,0",
+    "info": "INFO_UKB",
+    "ignore": "SNP,EAF"
+  },
+  "results": {
+    "worry": {
+      "status": "IDENTICAL",
+      "source_filename": "sumstats_worry_ctg_format.txt.gz",
+      "decompressed_sha256": "dfb59b834050959a562ca26b330ab8ae02ae5d527ba724e483ced4f356fd9597"
+    },
+    "depressed_affect": {
+      "status": "IDENTICAL",
+      "source_filename": "sumstats_depressed_affect_ctg_format.txt.gz",
+      "decompressed_sha256": "eb76a6e09968534184ffcb755dea49f64cccde1fd575c1bf38acac954191932b"
+    }
+  },
+  "summary": "2/2 CNCR datasets reproduced identically"
+}
