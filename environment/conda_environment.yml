@@ -53,4 +53,3 @@ dependencies:
   - urllib3=2.5.0
   - wheel=0.45.1
   - zstandard=0.23.0
-prefix: /Users/katerina_lind/miniforge3/envs/ldsc39

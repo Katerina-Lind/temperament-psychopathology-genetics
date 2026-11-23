@@ -4,13 +4,38 @@ import hashlib
 import json
 import os
 import subprocess
+import argparse
 from pathlib import Path
 
 home = Path.home()
 repo = Path(__file__).resolve().parents[1]
-source_root = home / "temperament_project"
-analysis_root = home / "temperament_psychopathology"
-workdir = home / "temperament_arisk_reproduction_20261123"
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "--source-root", type=Path,
+    default=home / "temperament_project"
+)
+parser.add_argument(
+    "--analysis-root", type=Path,
+    default=home / "temperament_psychopathology"
+)
+parser.add_argument(
+    "--workdir", type=Path,
+    default=home / "temperament_arisk_reproduction_20261123"
+)
+args = parser.parse_args()
+
+source_root = args.source_root.expanduser().resolve()
+analysis_root = args.analysis_root.expanduser().resolve()
+workdir = args.workdir.expanduser().resolve()
+
+if (
+    workdir in (source_root, analysis_root)
+    or source_root in workdir.parents
+    or analysis_root in workdir.parents
+):
+    parser.error("Workdir must be outside both source projects")
+
 
 raw_rel = Path(
     "gwas/adult/risk_taking_Clifton2018/"

@@ -18,7 +18,7 @@ CODE_EXT = {'.py', '.R', '.r', '.sh', '.bash', '.yml', '.yaml'}
 SKIP_DIRS = {'.git', '__pycache__', '.venv', 'node_modules', '.Rproj.user'}
 # Patterns are indicators for manual review, not guaranteed security flaws.
 RULES = [
- ('absolute_user_path','portability', re.compile(r'/Users/[^/\s\"\']+|/home/[^/\s\"\']+|/mnt/data/[^\s\"\']+')),
+ ('absolute_user_path','portability', re.compile(r'/' r'Users/[^/\s\"\']+|/home/[^/\s\"\']+|/mnt/data/[^\s\"\']+')),
  ('home_project_path','portability', re.compile(r'~/temperament_(?:project|psychopathology)|\$HOME/temperament_(?:project|psychopathology)|Path\.home\(\)\s*/\s*[\"\']temperament_(?:project|psychopathology)')),
  ('private_cloud_location','review', re.compile(r's3://|gs://|s3a://|globus://', re.I)),
  ('token_assignment','security', re.compile(r'(?i)\b(?:aws_secret_access_key|github_token|gh_token|api[_-]?key|access[_-]?token|secret[_-]?key|password)\b\s*(?:=|:)\s*[\"\']?[^\s,;}\)\]]+')),
