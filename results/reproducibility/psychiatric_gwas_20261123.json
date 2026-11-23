@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-11-23T12:56:54.917407+00:00",
+  "historical_script": "analysis/source_project/core_preparation/33_prepare_remaining_gwas.R",
+  "historical_script_sha256": "54fd6531420645200fd430cc7f4ae0a0cef9ea9867230498270178757405a5f6",
+  "method": "Isolated execution; only project-root assignment changed",
+  "results": {
+    "CINT": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "695ecba82569247e24a341e7efd9254a37cbe6b27b453cbd7a41d8e5f6d34124",
+      "expected_sha256": "695ecba82569247e24a341e7efd9254a37cbe6b27b453cbd7a41d8e5f6d34124"
+    },
+    "CADHD": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "8ec4be52ed80bd3f0c61f5adb73b24eafe996a6de64247393dcd613e5b5893cc",
+      "expected_sha256": "8ec4be52ed80bd3f0c61f5adb73b24eafe996a6de64247393dcd613e5b5893cc"
+    },
+    "CAGG": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "c9ea8629b339c193ef3c1e39feac89157e417828a60c80f81978d4f3c66def27",
+      "expected_sha256": "c9ea8629b339c193ef3c1e39feac89157e417828a60c80f81978d4f3c66def27"
+    },
+    "AINT": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "2aa9e3cf12a21051a9a99be79eef9d78b7a4e5d534121b770a66f5b2f693d74a",
+      "expected_sha256": "2aa9e3cf12a21051a9a99be79eef9d78b7a4e5d534121b770a66f5b2f693d74a"
+    },
+    "ASUD": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "9efb71cc3552d74eff5d57f51906b5128516764f382f0a64722b6dc16a872df7",
+      "expected_sha256": "9efb71cc3552d74eff5d57f51906b5128516764f382f0a64722b6dc16a872df7"
+    }
+  },
+  "passed": 5,
+  "total": 5
+}
