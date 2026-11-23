@@ -1,0 +1,32 @@
+{
+  "workflow": "Clifton 2018 ARISK preprocessing",
+  "method": "Original scripts 29 and 30 with isolated root",
+  "scripts": {
+    "29_prepare_ARISK_unambiguous.R": "bd0be4a83506058395cb4655729b51cde334d38fd2079b1fcef10c09a89bc802",
+    "30_munge_ARISK.R": "9a5b4e8de0a132d0d8463f5bcdb8dd7b26ca7c8540265e2ef8d6556e2ec26a4d",
+    "clean_arisk.py": "7dd2e3901d4e18ec76b77a2e2f45178aa928f743623162068278ec7976b57b5e",
+    "finalise_arisk.py": "9ec7f4aa83b64fbcef98109890da39ebd7fffd743aa9c89607974b95f4329f11"
+  },
+  "results": {
+    "intermediate": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "369b914e2129a360b9b0ddf366ee890905c25bc49936d45a9d30b46e83c2ecde",
+      "expected_sha256": "369b914e2129a360b9b0ddf366ee890905c25bc49936d45a9d30b46e83c2ecde"
+    },
+    "munged": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "3be94abd0094158ae164f4dd410c9e775d2f608f0e8414493a8f7a677404a70e",
+      "expected_sha256": "3be94abd0094158ae164f4dd410c9e775d2f608f0e8414493a8f7a677404a70e"
+    },
+    "cleaned": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "7d71a7aaa8e68e6be56074a5b4ab207056ead57d80098325a1777943a3673f70",
+      "expected_sha256": "7d71a7aaa8e68e6be56074a5b4ab207056ead57d80098325a1777943a3673f70"
+    },
+    "final": {
+      "status": "IDENTICAL",
+      "reproduced_sha256": "54633122986bc096734e48275f890f928fe1e76ca8da7bd438cc43aae7543bb1",
+      "expected_sha256": "54633122986bc096734e48275f890f928fe1e76ca8da7bd438cc43aae7543bb1"
+    }
+  }
+}
